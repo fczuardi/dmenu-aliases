@@ -5,7 +5,7 @@
 
 source ~/personalvars.sh #my personal variables
 WEB_VIDEOS_FOLDER=${WEB_VIDEOS_FOLDER:=~/Videos/}
-PREFERRED_VIDEO_FORMAT=${PREFERRED_VIDEO_FORMAT:="webm"}
+PREFERRED_VIDEO_FORMAT=${PREFERRED_VIDEO_FORMAT:="webm/mp4"}
 URL=$1
 CLIPBOARD=`xclip -o -selection common`
 URL=${URL:=$CLIPBOARD}
